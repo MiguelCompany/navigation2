@@ -1,0 +1,11 @@
+[INFO] [1594369083.763660606] [turtlebot3_imu]: <initial_orientation_as_reference> is unset, using default value of false to comply with REP 145 (world as orientation reference)
+[INFO] [1594369085.356881748] [intel_realsense_r200_depth_driver]: Publishing camera info to [/intel_realsense_r200_depth/camera_info]
+[INFO] [1594369085.359768376] [intel_realsense_r200_depth_driver]: Publishing depth camera info to [/intel_realsense_r200_depth/depth/camera_info]
+[INFO] [1594369085.362169548] [intel_realsense_r200_depth_driver]: Publishing pointcloud to [/intel_realsense_r200_depth/points]
+[INFO] [1594369085.519130600] [turtlebot3_diff_drive]: Wheel pair 1 separation set to [0.287000m]
+[INFO] [1594369085.519249006] [turtlebot3_diff_drive]: Wheel pair 1 diameter set to [0.066000m]
+[INFO] [1594369085.532282701] [turtlebot3_diff_drive]: Subscribed to [/cmd_vel]
+[INFO] [1594369085.537889329] [turtlebot3_diff_drive]: Advertise odometry on [/odom]
+[INFO] [1594369085.542658606] [turtlebot3_diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[INFO] [1594369085.618155001] [turtlebot3_joint_state]: Going to publish joint [wheel_left_joint]
+[INFO] [1594369085.618368527] [turtlebot3_joint_state]: Going to publish joint [wheel_right_joint]

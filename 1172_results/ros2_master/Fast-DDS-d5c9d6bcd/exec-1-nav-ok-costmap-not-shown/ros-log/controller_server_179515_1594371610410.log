@@ -1,0 +1,358 @@
+[INFO] [1594371610.923947796] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1594371611.029582574] [controller_server]: Creating controller server
+[INFO] [1594371611.329975131] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1594371611.336460711] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1594371611.444227089] [controller_server]: Configuring controller interface
+[INFO] [1594371611.444546164] [controller_server]: Controller frequency set to 20.0000Hz
+[INFO] [1594371611.444584649] [local_costmap.local_costmap]: Configuring
+[INFO] [1594371611.490924850] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[INFO] [1594371611.520555529] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1594371611.595098365] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1594371611.595568292] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1594371611.600416374] [local_costmap.local_costmap]: Subscribed to Topics: pointcloud
+[INFO] [1594371611.648681024] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1594371611.648930937] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1594371611.717649370] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1594371611.868739311] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[INFO] [1594371611.872458124] [controller_server]: Setting transform_tolerance to 0.200000
+[INFO] [1594371611.963419840] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[INFO] [1594371611.965536735] [controller_server]: Critic plugin initialized
+[INFO] [1594371611.965960991] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[INFO] [1594371611.966655715] [controller_server]: Critic plugin initialized
+[INFO] [1594371611.967056280] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[INFO] [1594371611.967412266] [controller_server]: Critic plugin initialized
+[INFO] [1594371611.967807178] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[INFO] [1594371611.968332635] [controller_server]: Critic plugin initialized
+[INFO] [1594371611.968748430] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[INFO] [1594371611.969432295] [controller_server]: Critic plugin initialized
+[INFO] [1594371611.969921505] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[INFO] [1594371611.970534140] [controller_server]: Critic plugin initialized
+[INFO] [1594371611.970978305] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[INFO] [1594371611.991808924] [controller_server]: Critic plugin initialized
+[INFO] [1594371613.133753782] [controller_server]: Activating
+[INFO] [1594371613.133805324] [local_costmap.local_costmap]: Activating
+[INFO] [1594371613.133834145] [local_costmap.local_costmap]: Checking transform
+[INFO] [1594371613.133896049] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371613.634088323] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371614.133956435] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371614.634526268] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371615.134232035] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371615.634428527] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371616.134301550] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371616.634607994] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371617.133999827] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371617.634112384] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371618.134328878] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371618.634182800] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371619.134154330] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371619.634123280] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371620.134170004] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371620.633966284] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371621.134316311] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371621.634157910] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371622.134262719] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371622.634127519] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371623.134043694] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371623.634313680] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371624.134415183] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371624.634083499] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371625.133960046] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371625.634015406] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371626.134335836] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371626.633997565] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371627.135379605] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371627.634164073] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371628.134089028] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371628.634284461] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371629.134471392] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371629.634269129] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371630.134271817] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371630.634027088] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371631.134821702] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371631.634521292] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371632.134254937] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371632.633911846] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371633.137447352] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371633.634220504] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371634.134196326] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371634.634586929] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371635.135453785] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371635.633923179] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371636.134009965] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371636.634059412] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371637.134091740] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371637.633948433] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371638.133919874] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371638.634997040] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371639.134339058] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371639.634612025] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371640.134114262] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371640.634849469] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371641.133948307] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371641.634010556] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371642.134202058] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371642.634058803] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371643.134112431] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371643.633987403] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371644.134017770] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371644.633969104] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371645.134057094] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371645.633977899] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371646.133918804] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371646.634196382] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371647.134264694] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371647.634499742] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371648.134299139] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371648.634471675] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371649.134456201] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371649.634303616] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371650.133999116] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371650.635225520] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371651.134310910] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371651.633960065] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371652.135266609] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371652.634756764] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371653.134012870] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371653.634193343] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371654.134494616] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371654.634147815] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371655.134690190] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371655.634831156] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371656.134002360] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371656.634326397] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371657.133905021] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371657.634327499] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371658.134884771] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371658.634031005] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371659.134860697] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371659.634212764] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371660.133913264] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371660.634202841] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371661.133930370] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371661.634039838] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371662.134113268] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371662.634742790] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371663.134586476] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371663.633973181] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371664.134075614] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371664.634411712] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371665.134010331] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371665.634240406] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371666.134024220] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371666.636257030] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371667.134586899] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371667.634473366] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371668.134484992] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371668.636805766] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371669.136882426] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371669.634451331] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371670.137409327] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371670.633945741] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371671.134064189] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371671.634029044] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371672.134530552] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371672.634790492] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371673.134139632] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371673.634094623] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371674.134153828] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371674.634031515] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371675.134941431] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371675.634188520] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371676.133948658] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371676.634008090] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371677.133971782] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371677.634372711] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371678.133968337] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371678.634356459] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371679.134099798] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371679.634478647] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371680.134068503] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371680.634364671] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371681.134014438] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371681.634092418] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371682.134740795] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371682.634801329] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371683.134282117] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371683.633973302] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371684.134580166] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371684.633973938] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371685.136444218] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1594371685.637541974] [local_costmap.local_costmap]: start
+[INFO] [1594371814.278133892] [controller_server]: Received a goal, begin computing control effort.
+[WARN] [1594371814.346120856] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371814.390235690] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371814.469234040] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371814.523633691] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371814.544021898] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371814.700022334] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371814.763518505] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371814.886368099] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371815.111241819] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371815.192195437] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371815.348240816] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371815.402005454] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371815.402090850] [controller_server]: Passing new path to controller.
+[WARN] [1594371815.654167686] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371815.838425311] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371815.982967862] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.021729997] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.057343886] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.155144635] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.315906167] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.387159658] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.455620128] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371816.456596667] [controller_server]: Passing new path to controller.
+[WARN] [1594371816.678874861] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.741970892] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.759463496] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.814526917] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.865602380] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371816.994668337] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371817.082494205] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371817.263889880] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371817.298267876] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371817.334779747] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371817.451427147] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371817.571295229] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371817.572070361] [controller_server]: Passing new path to controller.
+[WARN] [1594371817.747558417] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371817.848068068] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.114973228] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.148671216] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.217773557] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.289762013] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.366368247] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371818.517186762] [controller_server]: Passing new path to controller.
+[WARN] [1594371818.568217818] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.914173470] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.944318906] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371818.997259305] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.026299756] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.091381104] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.226605592] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.537268993] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.589260912] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371819.589338605] [controller_server]: Passing new path to controller.
+[WARN] [1594371819.651184486] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.786334091] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.957441763] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371819.994621768] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.051477119] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.133201476] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.205414401] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.417566995] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.486291930] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.550192669] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.584392667] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371820.584508622] [controller_server]: Passing new path to controller.
+[WARN] [1594371820.614296882] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.756546993] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.840519959] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371820.910024233] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371821.305706762] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371821.682754589] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371821.682864234] [controller_server]: Passing new path to controller.
+[WARN] [1594371821.745619435] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371821.810430320] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.060700096] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.221915637] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.420556276] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.481793861] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.648180699] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.733445494] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.946143367] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371822.998339493] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371823.043987239] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371823.097793616] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371823.199415371] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371823.247203207] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371823.277340115] [controller_server]: Passing new path to controller.
+[WARN] [1594371823.398035024] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371823.885570985] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371823.937291406] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371824.043159794] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371824.302697566] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371824.309585720] [controller_server]: Passing new path to controller.
+[WARN] [1594371824.372093663] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371824.425027976] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371824.526004588] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371824.764255815] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371824.830673903] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371825.096305531] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371825.355671851] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371825.397158822] [controller_server]: Passing new path to controller.
+[WARN] [1594371825.472415660] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371825.642280909] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371825.849834532] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371825.952245832] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371826.198175982] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371826.226087637] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371826.318377843] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371826.359407074] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371826.474859691] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371826.475139431] [controller_server]: Passing new path to controller.
+[WARN] [1594371826.750271097] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371826.793342835] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371826.933668771] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.119215031] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.133888138] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.187479431] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.326150753] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.351385549] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.434751163] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371827.534227556] [controller_server]: Passing new path to controller.
+[WARN] [1594371827.593805477] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.698157044] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.907126156] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371827.966992929] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.015524117] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.082128095] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.130677844] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.166386205] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.231540701] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.276049284] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.366894300] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371828.535441334] [controller_server]: Passing new path to controller.
+[WARN] [1594371828.716835294] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371828.786178988] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371829.166302505] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371829.254051223] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371829.478303939] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371829.553986593] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371829.656331124] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371829.661789960] [controller_server]: Passing new path to controller.
+[WARN] [1594371829.903714495] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371829.927321390] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.034546757] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.061943135] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.168477351] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.246977113] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.289894316] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.321374715] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.415637511] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.507717241] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.568572695] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.616268987] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371830.616366297] [controller_server]: Passing new path to controller.
+[WARN] [1594371830.771121249] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371830.885817670] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.027708916] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.121767314] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.345843367] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.461197056] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.487293245] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.589474333] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371831.622760987] [controller_server]: Passing new path to controller.
+[WARN] [1594371831.688662221] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.745434650] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.797818270] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[WARN] [1594371831.874347543] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[INFO] [1594371832.017216057] [DWBLocalPlanner]: Goal reached!
+[INFO] [1594371832.017267962] [controller_server]: Reached the goal!
+[INFO] [1594371842.972112543] [rclcpp]: signal_handler(signal_value=2)

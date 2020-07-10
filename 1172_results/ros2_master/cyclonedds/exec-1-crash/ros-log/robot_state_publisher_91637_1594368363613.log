@@ -1,0 +1,15 @@
+[WARN] [1594368363.651466212] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[INFO] [1594368363.661355399] [robot_state_publisher]: got segment base_footprint
+[INFO] [1594368363.661464336] [robot_state_publisher]: got segment base_link
+[INFO] [1594368363.661513228] [robot_state_publisher]: got segment base_scan
+[INFO] [1594368363.661559949] [robot_state_publisher]: got segment camera_depth_frame
+[INFO] [1594368363.661606774] [robot_state_publisher]: got segment camera_depth_optical_frame
+[INFO] [1594368363.661652925] [robot_state_publisher]: got segment camera_link
+[INFO] [1594368363.661698195] [robot_state_publisher]: got segment camera_rgb_frame
+[INFO] [1594368363.661745810] [robot_state_publisher]: got segment camera_rgb_optical_frame
+[INFO] [1594368363.661791152] [robot_state_publisher]: got segment caster_back_left_link
+[INFO] [1594368363.661835992] [robot_state_publisher]: got segment caster_back_right_link
+[INFO] [1594368363.661881445] [robot_state_publisher]: got segment imu_link
+[INFO] [1594368363.661926447] [robot_state_publisher]: got segment wheel_left_link
+[INFO] [1594368363.661972130] [robot_state_publisher]: got segment wheel_right_link
+[INFO] [1594368549.842636169] [rclcpp]: signal_handler(signal_value=2)
